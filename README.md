@@ -33,7 +33,7 @@ Create and display the PayPal payment button. Configure the button to create and
 
 ### Response order APi
 
-```html
+```json
    Sample response
 {
    "id":"ORDER-ID",
