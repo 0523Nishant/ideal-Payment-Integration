@@ -19,6 +19,18 @@ Before starting, ensure you have the following:
    ```html
    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&components=buttons,payment-fields,marks,funding-eligibility&enable-funding=ideal&currency=EUR"></script>
 
+**Loading the JavaScript SDK**
+
+
+The sdk requires the following query params to be configured on the script src to accept ideal payments.
+
+| **Param**   |       **Value**     |
+|----------|:-------------:|
+| client-id |   PayPal ClientId  |
+| components |  buttons,fields,marks,funding-eligibility |
+| enable-funding |   ideal   |
+| currency | EUR |
+
 ### 2. Render Payment Mark
 
 Integrate the iDEAL mark as a payment option to allow users to choose iDEAL as their payment method. This is achieved through the PayPal SDK's Marks component.
