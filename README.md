@@ -33,12 +33,7 @@ The sdk requires the following query params to be configured on the script src t
 
 ### 2. Render Payment Mark
 
-Integrate the iDEAL mark as a payment option to allow users to choose iDEAL as their payment method. This is achieved through the PayPal SDK's Marks component.
-
-**Mark**
-
- <img src="./assets/mark.png" width="60px" alt="iDeal Mark">
-  
+Integrate the iDEAL mark as a payment option to allow users to choose iDEAL as their payment method. This is achieved through the PayPal SDK's Marks component.  
 
 ### 3. Render Payment Fields
 
