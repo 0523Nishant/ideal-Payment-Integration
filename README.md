@@ -35,13 +35,26 @@ The sdk requires the following query params to be configured on the script src t
 
 Integrate the iDEAL mark as a payment option to allow users to choose iDEAL as their payment method. This is achieved through the PayPal SDK's Marks component.
 
+**Mark**
+
+ <img src="./assets/mark.png" width="60px" alt="iDeal Mark">
+  
+
 ### 3. Render Payment Fields
 
 Use the PayPal SDK to dynamically render and customize payment fields, such as name and other relevant details. This ensures the payment form fits your site's branding.
 
+**PaymentFields**
+
+<img src="./assets/fields.png" width="540px" alt="iDeal Fields">
+
 ### 4. Render Payment Button
 
 Create and display the PayPal payment button. Configure the button to create and capture PayPal orders, managing the payment process directly through the PayPal SDK.
+
+**Button**
+
+ <img src="./assets/button.png"  width="540px" alt="iDeal Button">
 
 ### **5. Capture the Transaction**
 
