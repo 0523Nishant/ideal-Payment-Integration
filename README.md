@@ -73,7 +73,7 @@ Set up a webhook handler to manage PayPal events. This includes handling events 
 - **Real-Time Processing**: Offers immediate feedback on payment status, enhancing the user experience.
 - **Error Handling**: Includes mechanisms for effectively managing and logging errors and cancellations.
 
-## **🚧 Challenges**
+ *🚧 Challenges*
 
 - **Cross-Browser Compatibility**: Ensure that the payment integration works consistently across different browsers.
 - **Error Management**: Develop robust methods for handling and logging errors during the payment process.
