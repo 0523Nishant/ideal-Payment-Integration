@@ -4,6 +4,10 @@
 
 This guide covers the integration of iDEAL payments using the PayPal JavaScript SDK. It provides a seamless payment experience for Dutch customers, allowing you to render payment fields, handle transactions, and manage webhook events.
 
+## DEMO :-
+[screen-capture (2).webm](https://github.com/user-attachments/assets/7914e090-8e3d-4ff5-9371-89a8e56608b9)
+
+
 ## 📋 Prerequisites
 
 Before starting, ensure you have the following:
