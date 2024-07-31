@@ -44,17 +44,10 @@ Integrate the iDEAL mark as a payment option to allow users to choose iDEAL as t
 
 Use the PayPal SDK to dynamically render and customize payment fields, such as name and other relevant details. This ensures the payment form fits your site's branding.
 
-**PaymentFields**
-
-<img src="./assets/fields.png" width="540px" alt="iDeal Fields">
 
 ### 4. Render Payment Button
 
 Create and display the PayPal payment button. Configure the button to create and capture PayPal orders, managing the payment process directly through the PayPal SDK.
-
-**Button**
-
- <img src="./assets/button.png"  width="540px" alt="iDeal Button">
 
 ### **5. Capture the Transaction**
 
