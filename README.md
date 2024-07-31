@@ -58,22 +58,22 @@ Create and display the PayPal payment button. Configure the button to create and
    ]
 }
 
-### 5. Capture the Transaction
+### **5. Capture the Transaction**
 
 Handle transaction capture using the PayPal SDK's onApprove function. This involves processing the payment once the user approves the transaction.
 
-### 6. Handle Webhook Events
+### **6. Handle Webhook Events**
 
 Set up a webhook handler to manage PayPal events. This includes handling events such as order approval and payment capture, ensuring your server responds appropriately to PayPal notifications.
 
-### 🌟 Features
+### **🌟 Features**
 
 - **Seamless iDEAL Integration**: Provides a smooth and intuitive payment experience for Dutch customers.
 - **Customizable Payment Fields**: Allows you to tailor payment fields to align with your site's branding.
 - **Real-Time Processing**: Offers immediate feedback on payment status, enhancing the user experience.
 - **Error Handling**: Includes mechanisms for effectively managing and logging errors and cancellations.
 
-## 🚧 Challenges
+## **🚧 Challenges**
 
 - **Cross-Browser Compatibility**: Ensure that the payment integration works consistently across different browsers.
 - **Error Management**: Develop robust methods for handling and logging errors during the payment process.
