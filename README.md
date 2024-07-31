@@ -31,6 +31,33 @@ Use the PayPal SDK to dynamically render and customize payment fields, such as n
 
 Create and display the PayPal payment button. Configure the button to create and capture PayPal orders, managing the payment process directly through the PayPal SDK.
 
+### Response order APi
+
+```html
+   Sample response
+{
+   "id":"ORDER-ID",
+   "status":"PAYER_ACTION_REQUIRED",
+   "payment_source":{
+      "ideal":{
+         "name":"Firstname Lastname",
+         "country_code":"NL"
+      }
+   },
+   "links":[
+      {
+         "href":"https://api-m.sandbox.paypal.com/v2/checkout/orders/ORDER-ID",
+         "rel":"self",
+         "method":"GET"
+      },
+      {
+         "href":"https://www.sandbox.paypal.com/payment/ideal?token=ORDER-ID",
+         "rel":"payer-action",
+         "method":"GET"
+      }
+   ]
+}
+
 ### 5. Capture the Transaction
 
 Handle transaction capture using the PayPal SDK's onApprove function. This involves processing the payment once the user approves the transaction.
