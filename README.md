@@ -66,7 +66,7 @@ Handle transaction capture using the PayPal SDK's onApprove function. This invol
 
 Set up a webhook handler to manage PayPal events. This includes handling events such as order approval and payment capture, ensuring your server responds appropriately to PayPal notifications.
 
-## 🌟 Features
+### 🌟 Features
 
 - **Seamless iDEAL Integration**: Provides a smooth and intuitive payment experience for Dutch customers.
 - **Customizable Payment Fields**: Allows you to tailor payment fields to align with your site's branding.
